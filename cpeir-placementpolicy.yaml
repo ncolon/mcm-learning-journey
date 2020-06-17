@@ -6,4 +6,5 @@ metadata:
 spec:
   clusterLabels:
     matchExpressions:
-      - {key: vendor, operator: In, values: ["OpenShift"]}
+      - {key: environment, operator: In, values: ["Dev"]}
+
